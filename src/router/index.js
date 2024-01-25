@@ -1,4 +1,4 @@
-import { createRouter } from 'vue-router';
+import { createRouter,createWebHistory } from 'vue-router';
 //import App from '../App.vue';
 import VideoPage from '../components/VideoPage.vue';
 import HomeLanding from '../components/HomeLanding.vue';
@@ -10,7 +10,7 @@ const routes = [
 ];
 
 const router = createRouter({
- // history: createWebHistory(),
+  history: createWebHistory(),
   routes,
 });
 
