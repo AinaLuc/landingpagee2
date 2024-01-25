@@ -11,12 +11,18 @@
 </template>
 
 <script>
+  /* eslint-disable no-undef */
+
 export default {
   created() {
     console.log('Created - Route:', this.$route); // Log the route object
     this.loadYouTubePlayer();
 
     document.title = 'E2 Visa Guide';
+    // Track Facebook Pixel PageView
+    if (typeof fbq !== 'undefined') {
+      fbq('track', 'PageView');
+    }
 
 
   },
