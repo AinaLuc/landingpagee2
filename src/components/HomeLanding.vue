@@ -73,7 +73,7 @@ export default {
      async submitForm() {
       try {
         // Send form data to the Node.js server
-        const response = await axios.post('http://e2b.tanamtech.online/submitForm', {
+        const response = await axios.post('https://e2b.tanamtech.online/submitForm', {
           firstName: this.firstName,
           email: this.email,
         });
