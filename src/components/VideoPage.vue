@@ -6,7 +6,7 @@
     <div id="youtube-player"></div>
 
     <!-- Register Button -->
-    <button class="register-button" @click="redirectToOrderPage">Register Your Company</button>
+    <button class="register-button" @click="redirectToOrderPage">Book Your Free Consultation Now</button>
   </div>
 </template>
 
@@ -29,7 +29,7 @@ export default {
  
   data() {
     return {
-      videoId: '6zXgqWhazho', // Replace with any other ID for testing
+      videoId: 'oVnms1Dun-A', // Replace with any other ID for testing
     };
   },
 
