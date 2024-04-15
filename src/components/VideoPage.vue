@@ -36,7 +36,7 @@ export default {
   methods: {
     redirectToOrderPage() {
       // Redirect to the specified URL when the button is clicked
-      window.location.href = 'https://calendly.com/tanamteche2/30min';
+      window.location.href = 'https://calendly.com/tanamteche2/e2-visa';
     },
 
     loadYouTubePlayer() {
